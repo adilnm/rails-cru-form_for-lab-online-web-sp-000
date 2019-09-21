@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20190920055306) do
+=======
+ActiveRecord::Schema.define(version: 20190920051947) do
+>>>>>>> b4358be8debe6cabcdfabb856ebaf0df851a53f6
 
   create_table "artists", force: :cascade do |t|
     t.string   "name"
@@ -24,6 +28,7 @@ ActiveRecord::Schema.define(version: 20190920055306) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+<<<<<<< HEAD
 
   create_table "songs", force: :cascade do |t|
     t.string   "name"
@@ -32,5 +37,7 @@ ActiveRecord::Schema.define(version: 20190920055306) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+=======
+>>>>>>> b4358be8debe6cabcdfabb856ebaf0df851a53f6
 
 end
